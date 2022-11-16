@@ -1,0 +1,64 @@
+.foo {
+    display: block; /*starts a new line, full width line, can specify width and height (div)*/
+    display: inline; /*stays in-line with surrounding elements (span)*/
+    display: inline-block; /*stays in-line but can have width and height specified*/
+    display: flexbox;
+    display: none; /*element is not rendered*/
+    visibility: hidden; /*element is hidden but space is still allocated*/
+    visibility: visible;
+
+    width: 50px;
+    height: 50px;
+    
+    position: relative; /*Relative to where element would normally be generated*/
+    position: absolute; /*Placed relative to parent element*/
+    position: fixed;    /*Placed relative to browser window */
+    top: 20px;
+    left: 40px; /*offset 40px from left screen*/
+
+    position: absolute; /*position relative to parent*/
+    bottom: 0px; /*puts at bottom of parent element*/
+
+    position: fixed;
+
+
+    box-sizing: border-box; /*Makes width of box include padding and border*/
+
+    font-size: 2rem; /*2x the font-size of root element */
+    font-size: 2em; /*2x the font-size of parent element*/
+}
+
+#id1 { /*to select id us #*/
+    font-size: 20px;
+}
+
+div h1 { /*only h1 that are descendants of div*/
+    font-size: large;
+}
+
+div > h1 { /*only h1 that is direct descendant of div*/
+    font-size: larger;
+}
+
+p:nth-child(1) { /*to select the p that is the 1st child*/
+    background-color: aqua;
+}
+
+/* hovering over element gives it a background color */
+a:hover {
+    background-color: #492;
+}
+
+/* all anchor links are red */
+a:link {
+    color: #a22;
+}
+
+/* visited anchor links are gray */
+a:visited {
+    color: #777;
+}
+
+[a] {
+    color: red;
+}

@@ -1,0 +1,128 @@
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 1000px;
+}
+
+button {
+    display: block;
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    bottom: 0px;
+    background-color:rgba(199, 115, 46, 0.789);
+    border: 1px solid rgba(126, 73, 29, 0.789);
+    margin: 10px;
+}
+
+.reset {
+    position: static;
+    margin: auto;
+}
+
+.score {
+    background-color: rgb(255, 228, 196);
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.turned {
+    background-color: #692e2b;
+    display: inline-block;
+    height: 60%;
+    width: 5%;
+    margin: 10px;
+    color:#692e2b;
+    border-radius: 3px;
+    font-size:35px;
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    height: 60%;
+    width: 5%;
+    margin: 10px;
+    border-radius: 3px;
+    font-size:35px;
+    color:red;
+}
+
+.start {
+    background-color: rgb(170, 152, 131);
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.stand {
+    left: 80px;
+}
+
+.invisible {
+    display: none;
+}
+
+.playerSection {
+    background-color: rgb(97, 130, 97);
+    display: block;
+    height: 30%;
+    width: 100%;
+    border: 1px solid #1b4e1d;
+    position:relative;
+}
+
+.dealerSection {
+    background-color: rgb(175, 112, 112);
+    display: block;
+    height: 30%;
+    width: 100%;
+    border: 1px solid #af514c;
+    position:relative;
+}
+
+.game {
+    height: 80%;
+    width: 100%;
+}
+
+.winBox {
+    display: block;
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    background-color:rgb(146, 196, 146);
+    border: 1px solid rgba(126, 73, 29, 0.789);
+    text-align: center;
+    color: white;
+}
+
+.loseBox {
+    display: block;
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    background-color:rgb(175, 112, 112);
+    border: 1px solid rgba(126, 73, 29, 0.789);
+    text-align: center;
+    color: white;
+}
+
+.tieBox {
+    display: block;
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    background-color:rgb(119, 119, 119);
+    border: 1px solid rgba(126, 73, 29, 0.789);
+    text-align: center;
+}

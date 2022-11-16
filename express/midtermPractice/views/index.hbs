@@ -1,0 +1,13 @@
+{{#each names as |name|}}
+<p>{{name}}</p>
+{{/each}}
+
+
+<form method="POST" action="/">
+    num:<input type="text" name="number" value="">
+    <input type="submit">
+</form>
+
+
+db.links.insert(name:snowman, url:http://unicodesnowmanforyou.com/)
+db.links.findOne()

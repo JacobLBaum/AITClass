@@ -1,0 +1,38 @@
+<form method="GET" action="/">
+    minLives: <input type="number" name="minLives" value="">
+    <input type="submit">
+</form>
+
+<table>
+{{#each cats as |cat|}}
+    <tr>
+        <td>
+            {{cat.name}}
+        </td>
+        <td>
+            {{cat.lives}}
+        </td>
+    </tr>
+{{/each}}
+</table>
+
+<h2>Suggest a cat</h2>
+<form method="POST" action="/">
+    name: <input type="text" name="catName" value="">
+    <br>
+    lives: <input type="number" name="lives" value="">
+    <input type="submit">
+</form>
+
+<form method="GET" action="/foo">
+<input type="text" name="bar">
+<input type="text" name="qux">
+<input type="submit">
+</form>
+
+
+<form method="POST" action=" /user/add"> 
+    first: <input type="text" name="first">
+    last: <input type="text" name="last">
+    <input type="submit">
+</form>
